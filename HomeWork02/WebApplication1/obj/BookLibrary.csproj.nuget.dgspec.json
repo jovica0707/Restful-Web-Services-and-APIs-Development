@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork01\\TheWitcherWebApplication\\TheWitcherWebApplication.csproj": {}
+    "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork02\\WebApplication1\\BookLibrary.csproj": {}
   },
   "projects": {
-    "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork01\\TheWitcherWebApplication\\TheWitcherWebApplication.csproj": {
+    "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork02\\WebApplication1\\BookLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork01\\TheWitcherWebApplication\\TheWitcherWebApplication.csproj",
-        "projectName": "TheWitcherWebApplication",
-        "projectPath": "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork01\\TheWitcherWebApplication\\TheWitcherWebApplication.csproj",
+        "projectUniqueName": "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork02\\WebApplication1\\BookLibrary.csproj",
+        "projectName": "BookLibrary",
+        "projectPath": "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork02\\WebApplication1\\BookLibrary.csproj",
         "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
-        "outputPath": "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork01\\TheWitcherWebApplication\\obj\\",
+        "outputPath": "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork02\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,6 +54,14 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [

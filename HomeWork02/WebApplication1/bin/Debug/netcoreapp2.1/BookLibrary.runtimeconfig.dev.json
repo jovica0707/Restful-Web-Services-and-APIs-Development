@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\The Ice and Fire\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\The Ice and Fire\\.nuget\\packages"
+    ]
+  }
+}

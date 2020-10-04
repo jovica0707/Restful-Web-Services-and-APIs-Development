@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork01\\TheWitcherWebApplication\\TheWitcherWebApplication.csproj": {}
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork02\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork01\\TheWitcherWebApplication\\TheWitcherWebApplication.csproj": {
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork02\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork01\\TheWitcherWebApplication\\TheWitcherWebApplication.csproj",
-        "projectName": "TheWitcherWebApplication",
-        "projectPath": "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork01\\TheWitcherWebApplication\\TheWitcherWebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork02\\WebApplication1\\WebApplication1.csproj",
+        "projectName": "WebApplication1",
+        "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork02\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
-        "outputPath": "E:\\Seavus\\HomeWorkRestful Web Services and APIs DevelopmentRepoGit\\Restful-Web-Services-and-APIs-Development\\HomeWork01\\TheWitcherWebApplication\\obj\\",
+        "outputPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork02\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
