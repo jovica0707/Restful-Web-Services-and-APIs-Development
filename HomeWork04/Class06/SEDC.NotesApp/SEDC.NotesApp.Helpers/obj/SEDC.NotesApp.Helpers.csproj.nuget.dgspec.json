@@ -1,0 +1,530 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Helpers\\SEDC.NotesApp.Helpers.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.DataAccess\\SEDC.NotesApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.DataAccess\\SEDC.NotesApp.DataAccess.csproj",
+        "projectName": "SEDC.NotesApp.DataAccess",
+        "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.DataAccess\\SEDC.NotesApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj",
+        "projectName": "SEDC.NotesApp.Domain",
+        "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Shared\\SEDC.NotesApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Shared\\SEDC.NotesApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Helpers\\SEDC.NotesApp.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Helpers\\SEDC.NotesApp.Helpers.csproj",
+        "projectName": "SEDC.NotesApp.Helpers",
+        "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Helpers\\SEDC.NotesApp.Helpers.csproj",
+        "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.DataAccess\\SEDC.NotesApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.DataAccess\\SEDC.NotesApp.DataAccess.csproj"
+              },
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj"
+              },
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Services\\SEDC.NotesApp.Services.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Services\\SEDC.NotesApp.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Mappers\\SEDC.NotesApp.Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Mappers\\SEDC.NotesApp.Mappers.csproj",
+        "projectName": "SEDC.NotesApp.Mappers",
+        "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Mappers\\SEDC.NotesApp.Mappers.csproj",
+        "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Mappers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj"
+              },
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Models\\SEDC.NotesApp.Models.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Models\\SEDC.NotesApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Models\\SEDC.NotesApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Models\\SEDC.NotesApp.Models.csproj",
+        "projectName": "SEDC.NotesApp.Models",
+        "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Models\\SEDC.NotesApp.Models.csproj",
+        "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Shared\\SEDC.NotesApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Shared\\SEDC.NotesApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Services\\SEDC.NotesApp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Services\\SEDC.NotesApp.Services.csproj",
+        "projectName": "SEDC.NotesApp.Services",
+        "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Services\\SEDC.NotesApp.Services.csproj",
+        "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.DataAccess\\SEDC.NotesApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.DataAccess\\SEDC.NotesApp.DataAccess.csproj"
+              },
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Domain\\SEDC.NotesApp.Domain.csproj"
+              },
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Mappers\\SEDC.NotesApp.Mappers.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Mappers\\SEDC.NotesApp.Mappers.csproj"
+              },
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Models\\SEDC.NotesApp.Models.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Models\\SEDC.NotesApp.Models.csproj"
+              },
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Validation\\SEDC.NotesApp.Validation.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Validation\\SEDC.NotesApp.Validation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Shared\\SEDC.NotesApp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Shared\\SEDC.NotesApp.Shared.csproj",
+        "projectName": "SEDC.NotesApp.Shared",
+        "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Shared\\SEDC.NotesApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Validation\\SEDC.NotesApp.Validation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Validation\\SEDC.NotesApp.Validation.csproj",
+        "projectName": "SEDC.NotesApp.Validation",
+        "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Validation\\SEDC.NotesApp.Validation.csproj",
+        "packagesPath": "C:\\Users\\The Ice and Fire\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Validation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Ice and Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Models\\SEDC.NotesApp.Models.csproj": {
+                "projectPath": "C:\\Users\\The Ice and Fire\\Desktop\\HomeWork04\\Class06\\SEDC.NotesApp\\SEDC.NotesApp.Models\\SEDC.NotesApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
